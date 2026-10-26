@@ -48,7 +48,7 @@ question = ("What percentage of Ares Capital's new investment commitments in the
 print(OllamaLLM(model="gemma4:12b-it-qat").invoke(question))
 ```
 
-There is no way the gemma4 could know the answer since it training cut off date was before that:
+There is no way that gemma4 could know the answer since its training cut off date was before that:
 
 ```
 I cannot provide that information because the fourth quarter of 2025 has not happened yet.
@@ -162,4 +162,4 @@ Here's the same sentence in the original press release:
 
 # Conclusion
 
-RAG can be used a free and private way to let a locally running LLM answer questions about documents it was never trained on, with sources you can check.
+RAG can be used as a free and private way to let a locally running LLM answer questions about documents it was never trained on, with sources you can check.
